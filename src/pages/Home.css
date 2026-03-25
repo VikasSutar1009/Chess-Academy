@@ -1,0 +1,99 @@
+.home {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background: black;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero h1 span {
+    display: block;
+    color: #8b5cf6;
+}
+
+.hero p {
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 30px;
+}
+
+.join {
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.coach {
+    background: linear-gradient(135deg, #7c3aed, #9333ea);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 60px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111827;
+    padding: 40px;
+    width: 220px;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    color: #8b5cf6;
+    font-size: 32px;
+}
+
+.card p {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+/* COACHES */
+.coaches {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.coaches h2 {
+    font-size: 32px;
+}
+
+.coaches p {
+    color: #aaa;
+    margin-top: 10px;
+}
