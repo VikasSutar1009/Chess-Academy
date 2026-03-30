@@ -6,7 +6,6 @@ const Footer = () => {
 
       <div className="footer-container">
 
-        {/* Left */}
         <div className="footer-left">
           <h3>Austin Grandmaster Chess Academy</h3>
           <p>Professional coaching for all skill levels.</p>
@@ -17,7 +16,6 @@ const Footer = () => {
           <p> Austin, TX 78729</p>
         </div>
 
-        {/* Services */}
         <div className="footer-links">
           <h3>Our Services</h3>
           <p>Group Lessons</p>
@@ -26,7 +24,6 @@ const Footer = () => {
           <p>Tactics Training</p>
         </div>
 
-        {/* Quick Links */}
         <div className="footer-links">
           <h3>Quick Links</h3>
           <p>About Us</p>

@@ -1,0 +1,36 @@
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0px 0;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: rgb(31, 27, 43);
+}
+
+.card {
+  background: #0e041f;
+  padding: 20px 1cap;
+  border-radius: 16px;
+  width: 200px;
+  text-align: center;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border: 1px solid #8b5cf6;
+}
+
+.card h2 {
+  color: #4c16a3;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card p {
+  color: #6b7280;
+  margin-top: 10px;
+  font-size: 17px;
+}
