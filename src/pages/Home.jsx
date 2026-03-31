@@ -1,6 +1,9 @@
 import "./Home.css";
 import Stats from "../components/Stats/Stats";
 import Reviews from "../components/Reviews/Reviews";
+import Coaches from "../components/Coaches/Coaches";
+import Membership from "../components/Membership/Membership";
+
 function Home() {
   return (
     <div className="home">
@@ -24,7 +27,11 @@ function Home() {
 
       <Stats />
 
+      <Coaches/>
+
       <Reviews />
+
+      <Membership/>
 
     </div>
   );
