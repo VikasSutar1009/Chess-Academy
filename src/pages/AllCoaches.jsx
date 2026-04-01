@@ -1,4 +1,4 @@
-import "./Allcoaches.css";
+import "./AllCoaches.css";
 
 function AllCoaches() {
     const Allcoaches = [
