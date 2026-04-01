@@ -6,10 +6,20 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo">Austin Grandmaster Chess Academy</div>
 
-      <ul className="nav-links">
+      <ul className="link">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/learn">Learn</Link></li>
-        <li><Link to="/membership">Membership</Link></li>
+        <li className="dropdown">
+          <span className="learn">Learn ▾</span>
+
+          <ul className="dropdown-menu">
+            <li><Link to="/assessment">Assessment</Link></li>
+            <li><Link to="/tactics">Tactics by Level</Link></li>
+            <li><Link to="/courses">Courses</Link></li>
+            <li><Link to="/group">Group Lessons</Link></li>
+            <li><Link to="/individual">Individual Lessons</Link></li>
+          </ul>
+        </li>
+        <li><Link to="/membershipplans">Membership</Link></li>
         <li><Link to="/events">Events</Link></li>
       </ul>
 

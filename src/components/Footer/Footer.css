@@ -37,13 +37,16 @@
 }
 
 .footer-links p:hover {
-    color: #8b5cf6;
+    color: #22c55e;
 }
 
 .copyright {
-    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 30px;
-    color: #666;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
 }
 
 h3 {

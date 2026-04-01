@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className="copyright">
-        © 2026 Austin Chess Academy
+        © 2026 Austin Chess Academy. All rights reserved.
       </div>
 
     </footer>

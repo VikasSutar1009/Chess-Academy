@@ -1,0 +1,122 @@
+.plans {
+  padding: 80px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #022c22, #ecfdf5);
+  min-height: 100vh;
+  gap: 30px;
+}
+
+.plans h2 {
+  color: #eff3f3;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(21, 240, 50, 0.021);
+  transition: 0.3s;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px);
+}
+
+.plan-card h3 {
+  font-size: 22px;
+  color: #065f46;
+}
+
+.plan-card h1 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: #022c22;
+}
+
+.plan-card h1 span {
+  font-size: 16px;
+  color: #555;
+}
+
+.plan-card ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.plan-card li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.plan-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.plan-card button:hover {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+}
+
+.premium {
+  border: 2px solid #22c55e;
+}
+
+.compare-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.compare-section h2 {
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background: #0d1117;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th {
+  padding: 15px;
+  text-align: left;
+  background: #161b22;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #ccc;
+  text-align: left;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  text-align: center;
+  font-size: 18px;
+}
+
+.table tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}

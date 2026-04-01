@@ -13,7 +13,7 @@ function Membership() {
                     Join hundreds of students who have improved their game with us.
                 </p>
 
-                <button onClick={() => navigate("/membership")}>
+                <button onClick={() => navigate("/membershipplans")}>
                     View Membership Plans → 
                 </button>
             </div>

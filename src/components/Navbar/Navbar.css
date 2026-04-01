@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
     padding: 15px 60px;
     background: #283d25;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -15,24 +14,24 @@
     color: #fff;
 }
 
-.nav-links {
+.link {
     display: flex;
     gap: 30px;
     list-style: none;
 }
 
-.nav-links li {
+.link li a {
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.nav-links li:hover {
-    color: #a855f7;
+.link li a:hover {
+    color: #22c55e;
 }
 
 .login-btn {
-    background: linear-gradient(135deg, #7c3aed, #9333ea);
+    background: #22c55e;
     color: white;
     border: none;
     padding: 8px 18px;
@@ -43,4 +42,53 @@
 
 .login-btn:hover {
     transform: scale(1.05);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.learn {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 220px;
+  background: rgba(17, 24, 39, 0.9); 
+  border-radius: 12px;
+  padding: 10px 0;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: 0.3s ease;
+
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  z-index: 100;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+  color: #d1d5db;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li:hover {
+  background: #1f2937;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
